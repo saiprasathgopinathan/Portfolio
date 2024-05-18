@@ -1,0 +1,160 @@
+/*
+styles.css 
+Name: Saiprasath Gopinath
+StuID: 301174654
+Date: 16/05/2024
+*/
+
+
+
+.about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-image {
+    width: 250px;
+    height: 350px;
+}
+
+.profile-description {
+    max-width: 600px;
+    text-align: left;
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-link:hover {
+    background-color: #0056b3;
+}
+
+
+/* Project alignment*/
+.projects-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+.services-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.service {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* styles.css */
+.contact-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
